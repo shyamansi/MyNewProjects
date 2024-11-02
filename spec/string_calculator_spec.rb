@@ -14,5 +14,8 @@ RSpec.describe StringCalculator do
 		    it "return sum of more than two comma-separated numbers" do   
                 expect(StringCalculator.add("1,4,5")).to eq(10)
 		    end
+		    it "handles new line delimeter" do   
+		    	expect(StringCalculator.add("5\n2,3")).to eq(10)
+		    end
 		end
 end
