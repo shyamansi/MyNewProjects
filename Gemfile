@@ -21,7 +21,7 @@ gem "jbuilder"
 gem 'psych', '~> 2.0', '>= 2.0.17'
 group :development, :test do
   gem "rspec"
-  gem "rspec-rails" 
+  #gem "rspec-rails" 
 end
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
