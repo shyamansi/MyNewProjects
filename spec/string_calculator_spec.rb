@@ -17,5 +17,8 @@ RSpec.describe StringCalculator do
 		    it "handles new line delimeter" do   
 		    	expect(StringCalculator.add("5\n2,3")).to eq(10)
 		    end
+		    it "handles all delimeter like '//;\n1;2'" do   
+		    	expect(StringCalculator.add("//;\n1;2")).to eq(3)
+		    end
 		end
 end
